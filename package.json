@@ -1,0 +1,12 @@
+{
+  "name": "wm-2026-tippspiel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Live-Tippspiel-Auswertung zur Fussball-WM 2026 (GitHub Pages + GitHub Actions)",
+  "scripts": {
+    "fetch": "node scripts/fetch-matches.mjs",
+    "csv": "node scripts/csv-to-ownership.mjs",
+    "serve": "node --version >/dev/null 2>&1 && (command -v npx >/dev/null && npx --yes serve . || python -m http.server 8080)"
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#1b2750"/>
+      <stop offset="100%" stop-color="#0b132b"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <circle cx="256" cy="248" r="140" fill="#eef2ff"/>
+  <g fill="#0b132b">
+    <polygon points="256,178 288,201 276,239 236,239 224,201"/>
+    <polygon points="256,318 230,300 240,272 272,272 282,300"/>
+    <polygon points="186,232 214,212 236,239 224,201 192,201"/>
+    <polygon points="326,232 298,212 276,239 288,201 320,201"/>
+  </g>
+  <text x="256" y="468" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="800" fill="#5bc0be" text-anchor="middle">WM 26</text>
+</svg>

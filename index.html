@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>WM 2026 Tippspiel</title>
+  <meta name="description" content="Live-Punktestand des WM-2026 Tippspiels" />
+  <meta name="theme-color" content="#0b132b" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="ball">⚽</span>
+      <div>
+        <h1>WM 2026 Tippspiel</h1>
+        <p class="sub" id="meta">Lade Daten…</p>
+      </div>
+    </div>
+    <button id="refreshBtn" class="icon-btn" title="Aktualisieren">⟳</button>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="ranking">🏆 Rangliste</button>
+    <button class="tab" data-tab="matches">📅 Spiele</button>
+    <button class="tab" data-tab="info">ℹ️ Info & Check</button>
+  </nav>
+
+  <main>
+    <section id="tab-ranking" class="tabpanel active">
+      <div id="ranking" class="ranking"></div>
+    </section>
+
+    <section id="tab-matches" class="tabpanel">
+      <div class="filterbar">
+        <button class="chip active" data-filter="all">Alle</button>
+        <button class="chip" data-filter="live">🔴 Live</button>
+        <button class="chip" data-filter="finished">Beendet</button>
+        <button class="chip" data-filter="upcoming">Kommend</button>
+      </div>
+      <div id="matches" class="matches"></div>
+    </section>
+
+    <section id="tab-info" class="tabpanel">
+      <div class="card">
+        <h2>So funktioniert die Wertung</h2>
+        <table class="ptable">
+          <thead><tr><th>Phase</th><th>Topf&nbsp;1</th><th>Topf&nbsp;2</th><th>Topf&nbsp;3</th><th>Topf&nbsp;4</th></tr></thead>
+          <tbody>
+            <tr><td>Gruppe · Sieg</td><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+            <tr><td>Gruppe · Unent.</td><td>0.5</td><td>1</td><td>1.5</td><td>2</td></tr>
+            <tr><td>K.o. · Sieg</td><td colspan="4" class="center">2 (jeder Topf)</td></tr>
+            <tr><td>K.o. · Unent.</td><td colspan="4" class="center">1 (jeder Topf)</td></tr>
+          </tbody>
+        </table>
+        <p class="hint">Topf 1 = stark (grün, Frankreich…Kolumbien) · Topf 4 = schwach (violett, Usbekistan…Neuseeland). Punkte werden pro Spiel des eigenen Teams vergeben und aufsummiert.</p>
+      </div>
+
+      <div class="card" id="installCard" hidden>
+        <h2>Als App installieren</h2>
+        <p class="hint">Diese Seite lässt sich als App auf dem Handy/Desktop installieren.</p>
+        <button id="installBtn" class="btn">📲 Installieren</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="sheet" class="sheet" hidden>
+    <div class="sheet-backdrop" data-close></div>
+    <div class="sheet-body">
+      <button class="sheet-close" data-close>✕</button>
+      <div id="sheetContent"></div>
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
