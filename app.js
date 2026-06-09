@@ -1,4 +1,4 @@
-import { computeStandings } from "./scoring.js";
+import { computeStandings, buildTeamIndex, resolveTeam } from "./scoring.js";
 
 const $ = (sel, el = document) => el.querySelector(sel);
 const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
@@ -23,6 +23,20 @@ async function loadAll() {
   state.ownership = ownership;
   state.matchData = matchData;
   state.result = computeStandings({ teams, ownership, matches: matchData.matches, config });
+
+  // Reverse-Map: welches Team gehört welchen Personen?
+  state.teamIndex = buildTeamIndex(teams);
+  state.ownersByTeam = {};
+  for (const [person, list] of Object.entries(ownership)) {
+    if (person.startsWith("_")) continue;
+    for (const t of list) (state.ownersByTeam[t] ||= []).push(person);
+  }
+}
+
+// Liefert die Besitzer-Namen zu einer API-Mannschaft ({name, tla})
+function ownersOf(side) {
+  const key = resolveTeam(state.teamIndex, side);
+  return key ? state.ownersByTeam[key] || [] : [];
 }
 
 /* ---------- Rendering ---------- */
@@ -145,11 +159,23 @@ function renderMatches() {
         ? `<div class="score">${m.scoreHome ?? "-"} : ${m.scoreAway ?? "-"}</div>
            <div class="stage">${isLive(m) ? '<span class="live-dot"></span>LIVE' : STAGE_LABEL[m.stage] || ""}</div>`
         : `<div class="when">${time}</div><div class="stage">${STAGE_LABEL[m.stage] || ""}</div>`;
+      const homeOwners = ownersOf(m.home);
+      const awayOwners = ownersOf(m.away);
+      const ownerTags = (names) =>
+        names.length
+          ? `<div class="owners">${names.map((n) => `<span class="owner">${n}</span>`).join("")}</div>`
+          : `<div class="owners none">–</div>`;
       return `${sep}
         <div class="match">
-          <div class="side"><span class="tla">${m.home.tla || m.home.name || "?"}</span></div>
+          <div class="side">
+            <span class="tla">${m.home.tla || m.home.name || "?"}</span>
+            ${ownerTags(homeOwners)}
+          </div>
           <div class="center">${center}</div>
-          <div class="side away"><span class="tla">${m.away.tla || m.away.name || "?"}</span></div>
+          <div class="side away">
+            <span class="tla">${m.away.tla || m.away.name || "?"}</span>
+            ${ownerTags(awayOwners)}
+          </div>
         </div>`;
     })
     .join("");

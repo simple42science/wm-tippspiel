@@ -1,5 +1,5 @@
 // Service Worker – macht die Seite installierbar und offline-fähig.
-const CACHE = "wm-tippspiel-v1";
+const CACHE = "wm-tippspiel-v2";
 const SHELL = [
   "./",
   "./index.html",
