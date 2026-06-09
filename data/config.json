@@ -1,0 +1,14 @@
+{
+  "competition": "WC",
+  "season": "2026",
+  "groupPointsByQuarter": { "1": 1, "2": 2, "3": 3, "4": 4 },
+  "knockoutWin": 2,
+  "knockoutDraw": 1,
+  "refreshSeconds": 120,
+  "quarterNames": {
+    "1": "Topf 1 (grün)",
+    "2": "Topf 2 (blau)",
+    "3": "Topf 3 (orange)",
+    "4": "Topf 4 (violett)"
+  }
+}

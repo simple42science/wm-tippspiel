@@ -1,0 +1,20 @@
+{
+  "_comment": "Zuordnung wer welche Teams gezogen hat. Reihenfolge der Personen = Spalten 1-16 im PDF.",
+
+  "Balz":      ["Spanien", "Marokko", "Japan", "Türkei", "Panama", "Tschechien", "Kap Verde", "Neuseeland"],
+  "Dominik":   ["Spanien", "Kroatien", "Österreich", "Australien", "Ägypten", "Elfenbeinküste", "Kap Verde", "Neuseeland"],
+  "Nick":      ["Niederlande", "Marokko", "Japan", "Iran", "Ägypten", "Tunesien", "Südafrika", "Curaçao"],
+  "Seraina":   ["England", "Kolumbien", "Mexiko", "Österreich", "Panama", "DR Kongo", "Katar", "Südafrika"],
+  "Angie":     ["Portugal", "Kroatien", "Senegal", "Mexiko", "Schweden", "Tunesien", "Saudi-Arabien", "Haiti"],
+  "Rico 1":    ["Marokko", "Kolumbien", "Japan", "Iran", "Norwegen", "Schweden", "Katar", "Saudi-Arabien"],
+  "Saskia":    ["Frankreich", "Portugal", "Schweiz", "Australien", "Schweden", "DR Kongo", "Katar", "Ghana"],
+  "Tina":      ["England", "Belgien", "Senegal", "Ecuador", "Norwegen", "DR Kongo", "Irak", "Bosn. & Herzegow."],
+  "Tobias":    ["Argentinien", "Kroatien", "Schweiz", "Österreich", "Ägypten", "Norwegen", "Usbekistan", "Südafrika"],
+  "Helene":    ["Spanien", "Niederlande", "Iran", "Südkorea", "Panama", "Tunesien", "Südafrika", "Saudi-Arabien"],
+  "Reto":      ["Frankreich", "Kroatien", "Senegal", "USA", "Algerien", "Ägypten", "Usbekistan", "Südafrika"],
+  "Marco":     ["Frankreich", "Spanien", "Senegal", "Australien", "Ägypten", "Tschechien", "Südafrika", "Neuseeland"],
+  "Martin S.": ["Spanien", "England", "Senegal", "Ecuador", "Kanada", "Tunesien", "Usbekistan", "Ghana"],
+  "Yannick":   ["Kroatien", "Kolumbien", "Uruguay", "Türkei", "Kanada", "Tunesien", "Ghana", "Haiti"],
+  "Xeno":      ["Argentinien", "Kroatien", "USA", "Südkorea", "Paraguay", "Schottland", "Irak", "Ghana"],
+  "Rico 2":    ["Belgien", "Deutschland", "Uruguay", "Australien", "Elfenbeinküste", "Schweden", "Katar", "Bosn. & Herzegow."]
+}
