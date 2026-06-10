@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-10T11:09:32.691Z",
+  "updatedAt": "2026-06-10T19:58:26.322Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -170,7 +170,7 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR"
+        "tla": "CUW"
       },
       "winner": null,
       "scoreHome": null,
@@ -198,7 +198,7 @@
     {
       "id": 537352,
       "utcDate": "2026-06-14T23:00:00Z",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
       "matchday": 1,
@@ -664,7 +664,7 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR"
+        "tla": "CUW"
       },
       "winner": null,
       "scoreHome": null,
@@ -1059,7 +1059,7 @@
       "matchday": 3,
       "home": {
         "name": "Curaçao",
-        "tla": "CUR"
+        "tla": "CUW"
       },
       "away": {
         "name": "Ivory Coast",
