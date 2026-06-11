@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-11T12:17:05.077Z",
+  "updatedAt": "2026-06-11T21:10:14.668Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 0,
+  "finished": 1,
   "matches": [
     {
       "id": 537327,
       "utcDate": "2026-06-11T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
       "matchday": 1,
@@ -20,9 +20,9 @@
         "name": "South Africa",
         "tla": "RSA"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 2,
+      "scoreAway": 0
     },
     {
       "id": 537328,
