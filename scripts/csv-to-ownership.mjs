@@ -5,7 +5,7 @@
 //   2. node scripts/csv-to-ownership.mjs tabelle.csv
 //
 // Erwartetes Format (so wie im PDF):
-//   - Eine Kopfzeile, die irgendwo die 16 Personennamen enthält (Balz ... Rico 2).
+//   - Eine Kopfzeile, die irgendwo die 16 Personennamen enthält (Balz ... Ricco 2).
 //   - Danach pro Team eine Zeile: erste Spalte = Landname, dann pro Person eine Zelle.
 //   - Eine "1" (oder beliebiger nicht-leerer Wert ausser 0) bedeutet: Person hat dieses Team.
 //
@@ -18,7 +18,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const dataDir = resolve(__dirname, "..", "data");
 
-const PEOPLE = ["Balz","Dominik","Nick","Seraina","Angie","Rico 1","Saskia","Tina","Tobias","Helene","Reto","Marco","Martin S.","Yannick","Xeno","Rico 2"];
+const PEOPLE = ["Balz","Dominik","Nick","Seraina","Angie","Ricco 1","Saskia","Tina","Tobias","Helene","Reto","Marco","Martin S.","Yannick","Xeno","Ricco 2"];
 const teams = JSON.parse(readFileSync(resolve(dataDir, "teams.json"), "utf8"));
 const teamNames = Object.keys(teams).filter((k) => !k.startsWith("_"));
 
