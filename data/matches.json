@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-11T21:10:14.668Z",
+  "updatedAt": "2026-06-12T11:51:40.172Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 1,
+  "finished": 2,
   "matches": [
     {
       "id": 537327,
@@ -27,7 +27,7 @@
     {
       "id": 537328,
       "utcDate": "2026-06-12T02:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
       "matchday": 1,
@@ -39,9 +39,9 @@
         "name": "Czechia",
         "tla": "CZE"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 2,
+      "scoreAway": 1
     },
     {
       "id": 537333,
