@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T18:32:07.646Z",
+  "updatedAt": "2026-06-12T20:15:55.930Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -46,7 +46,7 @@
     {
       "id": 537333,
       "utcDate": "2026-06-12T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "matchday": 1,
@@ -58,9 +58,9 @@
         "name": "Bosnia-Herzegovina",
         "tla": "BIH"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "AWAY_TEAM",
+      "scoreHome": 0,
+      "scoreAway": 1
     },
     {
       "id": 537345,
