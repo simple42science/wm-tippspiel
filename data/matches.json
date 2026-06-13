@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T15:19:48.453Z",
+  "updatedAt": "2026-06-13T20:44:18.951Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -84,7 +84,7 @@
     {
       "id": 537334,
       "utcDate": "2026-06-13T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "matchday": 1,
@@ -96,9 +96,9 @@
         "name": "Switzerland",
         "tla": "SUI"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "AWAY_TEAM",
+      "scoreHome": 0,
+      "scoreAway": 1
     },
     {
       "id": 537339,
