@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-14T16:12:41.426Z",
+  "updatedAt": "2026-06-14T20:51:10.772Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 8,
+  "finished": 9,
   "matches": [
     {
       "id": 537327,
@@ -160,7 +160,7 @@
     {
       "id": 537351,
       "utcDate": "2026-06-14T17:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
       "matchday": 1,
@@ -172,14 +172,14 @@
         "name": "Curaçao",
         "tla": "CUW"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 7,
+      "scoreAway": 1
     },
     {
       "id": 537357,
       "utcDate": "2026-06-14T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
       "matchday": 1,
@@ -191,9 +191,9 @@
         "name": "Japan",
         "tla": "JPN"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 0,
+      "scoreAway": 0
     },
     {
       "id": 537352,
