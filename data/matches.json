@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T10:30:59.429Z",
+  "updatedAt": "2026-06-14T16:12:41.426Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -58,9 +58,9 @@
         "name": "Bosnia-Herzegovina",
         "tla": "BIH"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 1,
+      "scoreAway": 1
     },
     {
       "id": 537345,
