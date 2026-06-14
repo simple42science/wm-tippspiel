@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-13T20:44:18.951Z",
+  "updatedAt": "2026-06-14T10:30:59.429Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 4,
+  "finished": 8,
   "matches": [
     {
       "id": 537327,
@@ -58,9 +58,9 @@
         "name": "Bosnia-Herzegovina",
         "tla": "BIH"
       },
-      "winner": "DRAW",
-      "scoreHome": 1,
-      "scoreAway": 1
+      "winner": null,
+      "scoreHome": null,
+      "scoreAway": null
     },
     {
       "id": 537345,
@@ -84,7 +84,7 @@
     {
       "id": 537334,
       "utcDate": "2026-06-13T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "matchday": 1,
@@ -96,14 +96,14 @@
         "name": "Switzerland",
         "tla": "SUI"
       },
-      "winner": "AWAY_TEAM",
-      "scoreHome": 0,
+      "winner": "DRAW",
+      "scoreHome": 1,
       "scoreAway": 1
     },
     {
       "id": 537339,
       "utcDate": "2026-06-13T22:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
       "matchday": 1,
@@ -115,14 +115,14 @@
         "name": "Morocco",
         "tla": "MAR"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 1,
+      "scoreAway": 1
     },
     {
       "id": 537340,
       "utcDate": "2026-06-14T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
       "matchday": 1,
@@ -134,14 +134,14 @@
         "name": "Scotland",
         "tla": "SCO"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "AWAY_TEAM",
+      "scoreHome": 0,
+      "scoreAway": 1
     },
     {
       "id": 537346,
       "utcDate": "2026-06-14T04:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
       "matchday": 1,
@@ -153,9 +153,9 @@
         "name": "Turkey",
         "tla": "TUR"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 2,
+      "scoreAway": 0
     },
     {
       "id": 537351,
