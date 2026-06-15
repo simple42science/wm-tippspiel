@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-15T16:29:59.729Z",
+  "updatedAt": "2026-06-15T23:22:22.466Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 12,
+  "finished": 14,
   "matches": [
     {
       "id": 537327,
@@ -236,7 +236,7 @@
     {
       "id": 537369,
       "utcDate": "2026-06-15T16:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
       "matchday": 1,
@@ -255,7 +255,7 @@
     {
       "id": 537363,
       "utcDate": "2026-06-15T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
       "matchday": 1,
@@ -267,14 +267,14 @@
         "name": "Egypt",
         "tla": "EGY"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 1,
+      "scoreAway": 1
     },
     {
       "id": 537370,
       "utcDate": "2026-06-15T22:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
       "matchday": 1,
@@ -286,9 +286,9 @@
         "name": "Uruguay",
         "tla": "URY"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 1,
+      "scoreAway": 0
     },
     {
       "id": 537364,
