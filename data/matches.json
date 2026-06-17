@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-17T00:01:50.065Z",
+  "updatedAt": "2026-06-17T13:03:57.203Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 17,
+  "finished": 20,
   "matches": [
     {
       "id": 537327,
@@ -331,7 +331,7 @@
     {
       "id": 537392,
       "utcDate": "2026-06-16T22:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
       "matchday": 1,
@@ -345,12 +345,12 @@
       },
       "winner": "AWAY_TEAM",
       "scoreHome": 1,
-      "scoreAway": 3
+      "scoreAway": 4
     },
     {
       "id": 537397,
       "utcDate": "2026-06-17T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
       "matchday": 1,
@@ -362,14 +362,14 @@
         "name": "Algeria",
         "tla": "ALG"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 3,
+      "scoreAway": 0
     },
     {
       "id": 537398,
       "utcDate": "2026-06-17T04:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
       "matchday": 1,
@@ -381,9 +381,9 @@
         "name": "Jordan",
         "tla": "JOR"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 3,
+      "scoreAway": 1
     },
     {
       "id": 537403,
