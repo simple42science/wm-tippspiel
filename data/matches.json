@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-19T22:40:32.271Z",
+  "updatedAt": "2026-06-20T10:14:25.505Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 29,
+  "finished": 32,
   "matches": [
     {
       "id": 537327,
@@ -559,7 +559,7 @@
     {
       "id": 537342,
       "utcDate": "2026-06-19T22:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
       "matchday": 2,
@@ -578,7 +578,7 @@
     {
       "id": 537341,
       "utcDate": "2026-06-20T00:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
       "matchday": 2,
@@ -590,14 +590,14 @@
         "name": "Haiti",
         "tla": "HAI"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 3,
+      "scoreAway": 0
     },
     {
       "id": 537347,
       "utcDate": "2026-06-20T03:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
       "matchday": 2,
@@ -609,9 +609,9 @@
         "name": "Paraguay",
         "tla": "PAR"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "AWAY_TEAM",
+      "scoreHome": 0,
+      "scoreAway": 1
     },
     {
       "id": 537359,
