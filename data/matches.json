@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-21T17:08:51.624Z",
+  "updatedAt": "2026-06-21T22:02:29.327Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 36,
+  "finished": 38,
   "matches": [
     {
       "id": 537327,
@@ -692,7 +692,7 @@
     {
       "id": 537371,
       "utcDate": "2026-06-21T16:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
       "matchday": 2,
@@ -705,13 +705,13 @@
         "tla": "KSA"
       },
       "winner": "HOME_TEAM",
-      "scoreHome": 3,
+      "scoreHome": 4,
       "scoreAway": 0
     },
     {
       "id": 537365,
       "utcDate": "2026-06-21T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
       "matchday": 2,
@@ -723,14 +723,14 @@
         "name": "Iran",
         "tla": "IRN"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 0,
+      "scoreAway": 0
     },
     {
       "id": 537372,
       "utcDate": "2026-06-21T22:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
       "matchday": 2,
@@ -742,9 +742,9 @@
         "name": "Cape Verde Islands",
         "tla": "CPV"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 0,
+      "scoreAway": 0
     },
     {
       "id": 537366,
