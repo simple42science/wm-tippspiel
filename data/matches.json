@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T10:49:55.376Z",
+  "updatedAt": "2026-06-21T17:08:51.624Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -284,7 +284,7 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URU"
+        "tla": "URY"
       },
       "winner": "DRAW",
       "scoreHome": 1,
@@ -692,7 +692,7 @@
     {
       "id": 537371,
       "utcDate": "2026-06-21T16:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
       "matchday": 2,
@@ -704,9 +704,9 @@
         "name": "Saudi Arabia",
         "tla": "KSA"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 3,
+      "scoreAway": 0
     },
     {
       "id": 537365,
@@ -736,7 +736,7 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URU"
+        "tla": "URY"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1192,7 +1192,7 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URU"
+        "tla": "URY"
       },
       "away": {
         "name": "Spain",
