@@ -51,16 +51,18 @@ function renderRanking() {
   const wrap = $("#ranking");
   const rows = state.result.standings;
   const max = Math.max(1, ...rows.map((r) => r.total));
+  const lastRank = Math.max(...rows.map((r) => r.rank));
   wrap.innerHTML = rows
-    .map((r, i) => {
-      const medal = r.rank === 1 ? "🥇" : r.rank === 2 ? "🥈" : r.rank === 3 ? "🥉" : r.rank;
-      const topClass = r.rank <= 3 ? `top${r.rank}` : "";
+    .map((r) => {
+      const isLast = lastRank > 3 && r.rank === lastRank;
+      const medal = r.rank === 1 ? "🥇" : r.rank === 2 ? "🥈" : r.rank === 3 ? "🥉" : isLast ? "🏮" : r.rank;
+      const topClass = r.rank <= 3 ? `top${r.rank}` : isLast ? "lastplace" : "";
       const pct = Math.round((r.total / max) * 100);
       return `
         <div class="rank-row ${topClass}" data-person="${encodeURIComponent(r.name)}">
           <div class="pos">${medal}</div>
           <div class="who">
-            <div class="name">${r.name}</div>
+            <div class="name">${r.name}${isLast ? ' <span class="lantern-badge">Rote Laterne</span>' : ""}</div>
             <div class="teams-mini">${teamsMini(r.teams)}</div>
           </div>
           <div class="pts"><div class="big">${r.total}</div><div class="lbl">Punkte</div></div>

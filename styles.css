@@ -75,8 +75,11 @@ main { padding: 0 14px; max-width: 760px; margin: 0 auto; }
 .rank-row.top1 { background: linear-gradient(110deg, #2a2f1a, var(--card) 55%); border-color: #6b5d1f; }
 .rank-row.top2 { background: linear-gradient(110deg, #232733, var(--card) 55%); border-color: #4a5266; }
 .rank-row.top3 { background: linear-gradient(110deg, #2c2118, var(--card) 55%); border-color: #6b4a2f; }
+.rank-row.lastplace { background: linear-gradient(110deg, #331a1a, var(--card) 55%); border-color: #6b2f2f; }
 .pos { font-size: 18px; font-weight: 800; text-align: center; color: var(--muted); }
-.top1 .pos, .top2 .pos, .top3 .pos { font-size: 22px; }
+.top1 .pos, .top2 .pos, .top3 .pos, .lastplace .pos { font-size: 22px; }
+.lantern-badge { font-size: 10px; font-weight: 700; color: #ff8a8a; background: rgba(255,107,107,.12);
+  border: 1px solid rgba(255,107,107,.35); border-radius: 6px; padding: 1px 6px; margin-left: 6px; vertical-align: middle; }
 .who { min-width: 0; }
 .who .name { font-weight: 700; font-size: 16px; }
 .who .teams-mini { font-size: 11.5px; color: var(--muted); margin-top: 3px;
@@ -140,9 +143,6 @@ main { padding: 0 14px; max-width: 760px; margin: 0 auto; }
 .match .score { font-size: 18px; font-weight: 800; }
 .match .when { font-size: 11px; color: var(--muted); }
 .match .stage { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .4px; }
-.live-dot { width: 8px; height: 8px; border-radius: 50%; background: #ff4d4d; display: inline-block;
-  animation: pulse 1.2s infinite; margin-right: 4px; }
-@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
 .match.day-sep { background: transparent; border: none; padding: 14px 2px 2px; }
 .day-sep h3 { margin: 0; font-size: 13px; color: var(--muted); font-weight: 700; }
 
