@@ -137,8 +137,7 @@ function isUpcoming(m) { return ["SCHEDULED", "TIMED"].includes(m.status); }
 function renderMatches() {
   const wrap = $("#matches");
   let list = [...(state.matchData.matches || [])];
-  if (matchFilter === "live") list = list.filter(isLive);
-  else if (matchFilter === "finished") list = list.filter(isFinished);
+  if (matchFilter === "finished") list = list.filter(isFinished);
   else if (matchFilter === "upcoming") list = list.filter(isUpcoming);
   list.sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate));
 
@@ -157,7 +156,7 @@ function renderMatches() {
       const time = d.toLocaleTimeString("de-CH", { hour: "2-digit", minute: "2-digit" });
       const center = isFinished(m) || isLive(m)
         ? `<div class="score">${m.scoreHome ?? "-"} : ${m.scoreAway ?? "-"}</div>
-           <div class="stage">${isLive(m) ? '<span class="live-dot"></span>LIVE' : STAGE_LABEL[m.stage] || ""}</div>`
+           <div class="stage">${STAGE_LABEL[m.stage] || ""}</div>`
         : `<div class="when">${time}</div><div class="stage">${STAGE_LABEL[m.stage] || ""}</div>`;
       const homeOwners = ownersOf(m.home);
       const awayOwners = ownersOf(m.away);
@@ -188,7 +187,7 @@ function renderMeta() {
   const finished = state.result.finishedCount;
   let txt;
   if (!md.updatedAt) {
-    txt = "Noch keine Live-Daten · warten auf erstes Action-Update";
+    txt = "Noch keine Daten · warten auf erstes Action-Update";
   } else {
     const d = new Date(md.updatedAt);
     txt = `${finished} Spiele gewertet · Stand ${d.toLocaleString("de-CH", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" })}`;
