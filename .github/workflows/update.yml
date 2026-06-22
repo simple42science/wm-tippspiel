@@ -1,6 +1,7 @@
 name: Update results
 on:
   schedule:
+    - cron: "3 5 * * *"
     - cron: "12,42 * * * *"
   workflow_dispatch: {}
   push:
