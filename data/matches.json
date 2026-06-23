@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T14:04:47.243Z",
+  "updatedAt": "2026-06-23T17:32:52.228Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -844,7 +844,7 @@
     {
       "id": 537405,
       "utcDate": "2026-06-23T17:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
       "matchday": 2,
@@ -856,9 +856,9 @@
         "name": "Uzbekistan",
         "tla": "UZB"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 2,
+      "scoreAway": 0
     },
     {
       "id": 537411,
@@ -1419,8 +1419,8 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Germany",
+        "tla": "GER"
       },
       "away": {
         "name": null,
@@ -1495,8 +1495,8 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Mexico",
+        "tla": "MEX"
       },
       "away": {
         "name": null,
@@ -1552,8 +1552,8 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "United States",
+        "tla": "USA"
       },
       "away": {
         "name": null,
