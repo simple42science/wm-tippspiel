@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T10:50:26.425Z",
+  "updatedAt": "2026-06-23T14:04:47.243Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -170,7 +170,7 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR"
+        "tla": "CUW"
       },
       "winner": "HOME_TEAM",
       "scoreHome": 7,
@@ -284,7 +284,7 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY"
+        "tla": "URU"
       },
       "winner": "DRAW",
       "scoreHome": 1,
@@ -664,7 +664,7 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR"
+        "tla": "CUW"
       },
       "winner": "DRAW",
       "scoreHome": 0,
@@ -736,7 +736,7 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URY"
+        "tla": "URU"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1059,7 +1059,7 @@
       "matchday": 3,
       "home": {
         "name": "Curaçao",
-        "tla": "CUR"
+        "tla": "CUW"
       },
       "away": {
         "name": "Ivory Coast",
@@ -1192,7 +1192,7 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URY"
+        "tla": "URU"
       },
       "away": {
         "name": "Spain",
