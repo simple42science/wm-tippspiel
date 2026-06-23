@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-22T22:57:03.453Z",
+  "updatedAt": "2026-06-23T10:50:26.425Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 41,
+  "finished": 44,
   "matches": [
     {
       "id": 537327,
@@ -58,9 +58,9 @@
         "name": "Bosnia-Herzegovina",
         "tla": "BIH"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 1,
+      "scoreAway": 1
     },
     {
       "id": 537345,
@@ -170,7 +170,7 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUW"
+        "tla": "CUR"
       },
       "winner": "HOME_TEAM",
       "scoreHome": 7,
@@ -664,7 +664,7 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUW"
+        "tla": "CUR"
       },
       "winner": "DRAW",
       "scoreHome": 0,
@@ -787,7 +787,7 @@
     {
       "id": 537393,
       "utcDate": "2026-06-22T21:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
       "matchday": 2,
@@ -800,13 +800,13 @@
         "tla": "IRQ"
       },
       "winner": "HOME_TEAM",
-      "scoreHome": 1,
+      "scoreHome": 3,
       "scoreAway": 0
     },
     {
       "id": 537394,
       "utcDate": "2026-06-23T00:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
       "matchday": 2,
@@ -818,14 +818,14 @@
         "name": "Senegal",
         "tla": "SEN"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 3,
+      "scoreAway": 2
     },
     {
       "id": 537400,
       "utcDate": "2026-06-23T03:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
       "matchday": 2,
@@ -837,9 +837,9 @@
         "name": "Algeria",
         "tla": "ALG"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "AWAY_TEAM",
+      "scoreHome": 1,
+      "scoreAway": 2
     },
     {
       "id": 537405,
@@ -1059,7 +1059,7 @@
       "matchday": 3,
       "home": {
         "name": "Curaçao",
-        "tla": "CUW"
+        "tla": "CUR"
       },
       "away": {
         "name": "Ivory Coast",
