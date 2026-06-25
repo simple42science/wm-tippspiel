@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-24T22:03:21.543Z",
+  "updatedAt": "2026-06-25T10:21:21.115Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 50,
+  "finished": 54,
   "matches": [
     {
       "id": 537327,
@@ -958,7 +958,7 @@
     {
       "id": 537344,
       "utcDate": "2026-06-24T22:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
       "matchday": 3,
@@ -970,14 +970,14 @@
         "name": "Haiti",
         "tla": "HAI"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 4,
+      "scoreAway": 2
     },
     {
       "id": 537343,
       "utcDate": "2026-06-24T22:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
       "matchday": 3,
@@ -989,14 +989,14 @@
         "name": "Brazil",
         "tla": "BRA"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "AWAY_TEAM",
+      "scoreHome": 0,
+      "scoreAway": 3
     },
     {
       "id": 537331,
       "utcDate": "2026-06-25T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
       "matchday": 3,
@@ -1008,14 +1008,14 @@
         "name": "Mexico",
         "tla": "MEX"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "AWAY_TEAM",
+      "scoreHome": 0,
+      "scoreAway": 3
     },
     {
       "id": 537332,
       "utcDate": "2026-06-25T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
       "matchday": 3,
@@ -1027,9 +1027,9 @@
         "name": "South Korea",
         "tla": "KOR"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 1,
+      "scoreAway": 0
     },
     {
       "id": 537355,
@@ -1419,8 +1419,8 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "Germany",
-        "tla": "GER"
+        "name": null,
+        "tla": null
       },
       "away": {
         "name": null,
@@ -1495,8 +1495,8 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "Mexico",
-        "tla": "MEX"
+        "name": null,
+        "tla": null
       },
       "away": {
         "name": null,
@@ -1552,8 +1552,8 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "United States",
-        "tla": "USA"
+        "name": null,
+        "tla": null
       },
       "away": {
         "name": null,
@@ -1647,8 +1647,8 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": "Argentina",
-        "tla": "ARG"
+        "name": null,
+        "tla": null
       },
       "away": {
         "name": null,
