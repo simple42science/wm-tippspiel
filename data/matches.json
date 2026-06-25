@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-25T18:33:31.237Z",
+  "updatedAt": "2026-06-25T23:04:18.155Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 54,
+  "finished": 56,
   "matches": [
     {
       "id": 537327,
@@ -284,7 +284,7 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY"
+        "tla": "URU"
       },
       "winner": "DRAW",
       "scoreHome": 1,
@@ -736,7 +736,7 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URY"
+        "tla": "URU"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1034,7 +1034,7 @@
     {
       "id": 537355,
       "utcDate": "2026-06-25T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
       "matchday": 3,
@@ -1046,14 +1046,14 @@
         "name": "Germany",
         "tla": "GER"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 2,
+      "scoreAway": 1
     },
     {
       "id": 537356,
       "utcDate": "2026-06-25T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
       "matchday": 3,
@@ -1065,9 +1065,9 @@
         "name": "Ivory Coast",
         "tla": "CIV"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "AWAY_TEAM",
+      "scoreHome": 0,
+      "scoreAway": 2
     },
     {
       "id": 537361,
@@ -1192,7 +1192,7 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URY"
+        "tla": "URU"
       },
       "away": {
         "name": "Spain",
@@ -1419,8 +1419,8 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Germany",
+        "tla": "GER"
       },
       "away": {
         "name": null,
@@ -1495,8 +1495,8 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Mexico",
+        "tla": "MEX"
       },
       "away": {
         "name": null,
@@ -1552,8 +1552,8 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "United States",
+        "tla": "USA"
       },
       "away": {
         "name": null,
@@ -1647,8 +1647,8 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Argentina",
+        "tla": "ARG"
       },
       "away": {
         "name": null,
