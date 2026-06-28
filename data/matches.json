@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T14:58:45.158Z",
+  "updatedAt": "2026-06-28T19:58:46.592Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1376,7 +1376,7 @@
     {
       "id": 537417,
       "utcDate": "2026-06-28T19:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1388,9 +1388,9 @@
         "name": "Canada",
         "tla": "CAN"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 0,
+      "scoreAway": 0
     },
     {
       "id": 537423,
