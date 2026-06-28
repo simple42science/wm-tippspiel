@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-27T20:43:27.490Z",
+  "updatedAt": "2026-06-28T08:34:39.831Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 66,
+  "finished": 72,
   "matches": [
     {
       "id": 537327,
@@ -1262,7 +1262,7 @@
     {
       "id": 537413,
       "utcDate": "2026-06-27T21:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
       "matchday": 3,
@@ -1274,14 +1274,14 @@
         "name": "England",
         "tla": "ENG"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "AWAY_TEAM",
+      "scoreHome": 0,
+      "scoreAway": 2
     },
     {
       "id": 537414,
       "utcDate": "2026-06-27T21:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
       "matchday": 3,
@@ -1293,14 +1293,14 @@
         "name": "Ghana",
         "tla": "GHA"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 2,
+      "scoreAway": 1
     },
     {
       "id": 537407,
       "utcDate": "2026-06-27T23:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
       "matchday": 3,
@@ -1312,14 +1312,14 @@
         "name": "Portugal",
         "tla": "POR"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 0,
+      "scoreAway": 0
     },
     {
       "id": 537408,
       "utcDate": "2026-06-27T23:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
       "matchday": 3,
@@ -1331,14 +1331,14 @@
         "name": "Uzbekistan",
         "tla": "UZB"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 3,
+      "scoreAway": 1
     },
     {
       "id": 537401,
       "utcDate": "2026-06-28T02:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
       "matchday": 3,
@@ -1350,14 +1350,14 @@
         "name": "Argentina",
         "tla": "ARG"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "AWAY_TEAM",
+      "scoreHome": 1,
+      "scoreAway": 3
     },
     {
       "id": 537402,
       "utcDate": "2026-06-28T02:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
       "matchday": 3,
@@ -1369,9 +1369,9 @@
         "name": "Austria",
         "tla": "AUT"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 3,
+      "scoreAway": 3
     },
     {
       "id": 537417,
@@ -1423,8 +1423,8 @@
         "tla": "GER"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Paraguay",
+        "tla": "PAR"
       },
       "winner": null,
       "scoreHome": null,
@@ -1461,8 +1461,8 @@
         "tla": "CIV"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Norway",
+        "tla": "NOR"
       },
       "winner": null,
       "scoreHome": null,
@@ -1476,12 +1476,12 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "France",
+        "tla": "FRA"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Sweden",
+        "tla": "SWE"
       },
       "winner": null,
       "scoreHome": null,
@@ -1499,8 +1499,8 @@
         "tla": "MEX"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Ecuador",
+        "tla": "ECU"
       },
       "winner": null,
       "scoreHome": null,
@@ -1514,12 +1514,12 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "England",
+        "tla": "ENG"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Congo DR",
+        "tla": "COD"
       },
       "winner": null,
       "scoreHome": null,
@@ -1533,12 +1533,12 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Belgium",
+        "tla": "BEL"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Senegal",
+        "tla": "SEN"
       },
       "winner": null,
       "scoreHome": null,
@@ -1571,12 +1571,12 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Spain",
+        "tla": "ESP"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Austria",
+        "tla": "AUT"
       },
       "winner": null,
       "scoreHome": null,
@@ -1590,12 +1590,12 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Portugal",
+        "tla": "POR"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Croatia",
+        "tla": "CRO"
       },
       "winner": null,
       "scoreHome": null,
@@ -1613,8 +1613,8 @@
         "tla": "SUI"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Algeria",
+        "tla": "ALG"
       },
       "winner": null,
       "scoreHome": null,
@@ -1632,8 +1632,8 @@
         "tla": "AUS"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Egypt",
+        "tla": "EGY"
       },
       "winner": null,
       "scoreHome": null,
@@ -1651,8 +1651,8 @@
         "tla": "ARG"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Cape Verde Islands",
+        "tla": "CPV"
       },
       "winner": null,
       "scoreHome": null,
@@ -1666,12 +1666,12 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Colombia",
+        "tla": "COL"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Ghana",
+        "tla": "GHA"
       },
       "winner": null,
       "scoreHome": null,
