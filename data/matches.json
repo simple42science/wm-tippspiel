@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-29T16:47:02.117Z",
+  "updatedAt": "2026-06-29T21:11:21.544Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 73,
+  "finished": 74,
   "matches": [
     {
       "id": 537327,
@@ -1395,7 +1395,7 @@
     {
       "id": 537423,
       "utcDate": "2026-06-29T17:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1407,14 +1407,14 @@
         "name": "Japan",
         "tla": "JPN"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 2,
+      "scoreAway": 1
     },
     {
       "id": 537415,
       "utcDate": "2026-06-29T20:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1426,9 +1426,9 @@
         "name": "Paraguay",
         "tla": "PAR"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 0,
+      "scoreAway": 0
     },
     {
       "id": 537418,
