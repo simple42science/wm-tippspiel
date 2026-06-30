@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-29T21:11:21.544Z",
+  "updatedAt": "2026-06-30T08:47:53.599Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 74,
+  "finished": 76,
   "matches": [
     {
       "id": 537327,
@@ -1414,7 +1414,7 @@
     {
       "id": 537415,
       "utcDate": "2026-06-29T20:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1426,14 +1426,14 @@
         "name": "Paraguay",
         "tla": "PAR"
       },
-      "winner": "DRAW",
-      "scoreHome": 0,
-      "scoreAway": 0
+      "winner": "AWAY_TEAM",
+      "scoreHome": 4,
+      "scoreAway": 5
     },
     {
       "id": 537418,
       "utcDate": "2026-06-30T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1445,9 +1445,9 @@
         "name": "Morocco",
         "tla": "MAR"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "AWAY_TEAM",
+      "scoreHome": 3,
+      "scoreAway": 4
     },
     {
       "id": 537424,
@@ -1689,8 +1689,8 @@
         "tla": "CAN"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Morocco",
+        "tla": "MAR"
       },
       "winner": null,
       "scoreHome": null,
@@ -1704,8 +1704,8 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Paraguay",
+        "tla": "PAR"
       },
       "away": {
         "name": null,
@@ -1723,8 +1723,8 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Brazil",
+        "tla": "BRA"
       },
       "away": {
         "name": null,
