@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T18:27:27.162Z",
+  "updatedAt": "2026-07-01T22:52:27.924Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1528,7 +1528,7 @@
     {
       "id": 537422,
       "utcDate": "2026-07-01T20:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1540,9 +1540,9 @@
         "name": "Senegal",
         "tla": "SEN"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 3,
+      "scoreAway": 2
     },
     {
       "id": 537421,
