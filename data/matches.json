@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T18:48:59.739Z",
+  "updatedAt": "2026-07-02T20:37:06.460Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1566,7 +1566,7 @@
     {
       "id": 537420,
       "utcDate": "2026-07-02T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1578,9 +1578,9 @@
         "name": "Austria",
         "tla": "AUT"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 2,
+      "scoreAway": 0
     },
     {
       "id": 537419,
