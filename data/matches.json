@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-02T20:37:06.460Z",
+  "updatedAt": "2026-07-02T21:48:58.400Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 82,
+  "finished": 83,
   "matches": [
     {
       "id": 537327,
@@ -1566,7 +1566,7 @@
     {
       "id": 537420,
       "utcDate": "2026-07-02T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1579,7 +1579,7 @@
         "tla": "AUT"
       },
       "winner": "HOME_TEAM",
-      "scoreHome": 2,
+      "scoreHome": 3,
       "scoreAway": 0
     },
     {
