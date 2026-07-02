@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T21:48:58.400Z",
+  "updatedAt": "2026-07-02T23:20:56.754Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1585,7 +1585,7 @@
     {
       "id": 537419,
       "utcDate": "2026-07-02T23:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1597,9 +1597,9 @@
         "name": "Croatia",
         "tla": "CRO"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 0,
+      "scoreAway": 0
     },
     {
       "id": 537429,
