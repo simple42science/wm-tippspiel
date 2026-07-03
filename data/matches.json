@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-03T20:03:02.809Z",
+  "updatedAt": "2026-07-03T21:31:15.774Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 85,
+  "finished": 86,
   "matches": [
     {
       "id": 537327,
@@ -1623,7 +1623,7 @@
     {
       "id": 537428,
       "utcDate": "2026-07-03T18:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1635,9 +1635,9 @@
         "name": "Egypt",
         "tla": "EGY"
       },
-      "winner": "DRAW",
-      "scoreHome": 1,
-      "scoreAway": 1
+      "winner": null,
+      "scoreHome": 3,
+      "scoreAway": 5
     },
     {
       "id": 537427,
