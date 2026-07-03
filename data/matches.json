@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T22:41:40.654Z",
+  "updatedAt": "2026-07-03T23:45:54.554Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1654,9 +1654,9 @@
         "name": "Cape Verde Islands",
         "tla": "CPV"
       },
-      "winner": "HOME_TEAM",
+      "winner": "DRAW",
       "scoreHome": 1,
-      "scoreAway": 0
+      "scoreAway": 1
     },
     {
       "id": 537430,
