@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-02T23:20:56.754Z",
+  "updatedAt": "2026-07-03T01:16:25.346Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 83,
+  "finished": 84,
   "matches": [
     {
       "id": 537327,
@@ -1585,7 +1585,7 @@
     {
       "id": 537419,
       "utcDate": "2026-07-02T23:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1598,8 +1598,8 @@
         "tla": "CRO"
       },
       "winner": "DRAW",
-      "scoreHome": 0,
-      "scoreAway": 0
+      "scoreHome": 2,
+      "scoreAway": 2
     },
     {
       "id": 537429,
