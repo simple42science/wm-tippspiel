@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T17:03:15.034Z",
+  "updatedAt": "2026-07-03T18:38:24.347Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1623,7 +1623,7 @@
     {
       "id": 537428,
       "utcDate": "2026-07-03T18:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1635,9 +1635,9 @@
         "name": "Egypt",
         "tla": "EGY"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "AWAY_TEAM",
+      "scoreHome": 0,
+      "scoreAway": 1
     },
     {
       "id": 537427,
