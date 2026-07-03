@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-03T01:16:25.346Z",
+  "updatedAt": "2026-07-03T05:35:30.014Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 84,
+  "finished": 85,
   "matches": [
     {
       "id": 537327,
@@ -1597,14 +1597,14 @@
         "name": "Croatia",
         "tla": "CRO"
       },
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "scoreHome": 2,
-      "scoreAway": 2
+      "scoreAway": 1
     },
     {
       "id": 537429,
       "utcDate": "2026-07-03T03:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1616,9 +1616,9 @@
         "name": "Algeria",
         "tla": "ALG"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 2,
+      "scoreAway": 0
     },
     {
       "id": 537428,
