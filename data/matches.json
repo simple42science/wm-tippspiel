@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T16:41:23.561Z",
+  "updatedAt": "2026-07-04T17:46:44.877Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1680,7 +1680,7 @@
     {
       "id": 537376,
       "utcDate": "2026-07-04T17:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "LAST_16",
       "group": null,
       "matchday": null,
@@ -1692,9 +1692,9 @@
         "name": "Morocco",
         "tla": "MAR"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 0,
+      "scoreAway": 0
     },
     {
       "id": 537375,
