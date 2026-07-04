@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T21:39:40.919Z",
+  "updatedAt": "2026-07-04T22:40:31.731Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1699,7 +1699,7 @@
     {
       "id": 537375,
       "utcDate": "2026-07-04T21:00:00Z",
-      "status": "LIVE",
+      "status": "IN_PLAY",
       "stage": "LAST_16",
       "group": null,
       "matchday": null,
@@ -1711,9 +1711,9 @@
         "name": "France",
         "tla": "FRA"
       },
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "scoreHome": 0,
-      "scoreAway": 0
+      "scoreAway": 1
     },
     {
       "id": 537377,
