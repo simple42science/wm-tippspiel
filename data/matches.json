@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-04T22:40:31.731Z",
+  "updatedAt": "2026-07-04T23:45:12.408Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 89,
+  "finished": 90,
   "matches": [
     {
       "id": 537327,
@@ -1699,7 +1699,7 @@
     {
       "id": 537375,
       "utcDate": "2026-07-04T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_16",
       "group": null,
       "matchday": null,
