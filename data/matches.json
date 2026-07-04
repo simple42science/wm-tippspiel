@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-03T23:45:54.554Z",
+  "updatedAt": "2026-07-04T04:00:29.037Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 86,
+  "finished": 88,
   "matches": [
     {
       "id": 537327,
@@ -1642,7 +1642,7 @@
     {
       "id": 537427,
       "utcDate": "2026-07-03T22:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1654,14 +1654,14 @@
         "name": "Cape Verde Islands",
         "tla": "CPV"
       },
-      "winner": "DRAW",
-      "scoreHome": 1,
-      "scoreAway": 1
+      "winner": "HOME_TEAM",
+      "scoreHome": 3,
+      "scoreAway": 2
     },
     {
       "id": 537430,
       "utcDate": "2026-07-04T01:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "matchday": null,
@@ -1673,9 +1673,9 @@
         "name": "Ghana",
         "tla": "GHA"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 1,
+      "scoreAway": 0
     },
     {
       "id": 537376,
