@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T04:00:29.037Z",
+  "updatedAt": "2026-07-04T07:13:27.129Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1635,7 +1635,7 @@
         "name": "Egypt",
         "tla": "EGY"
       },
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "scoreHome": 3,
       "scoreAway": 5
     },
@@ -1761,12 +1761,12 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Portugal",
+        "tla": "POR"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Spain",
+        "tla": "ESP"
       },
       "winner": null,
       "scoreHome": null,
@@ -1799,12 +1799,12 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Argentina",
+        "tla": "ARG"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Egypt",
+        "tla": "EGY"
       },
       "winner": null,
       "scoreHome": null,
@@ -1818,12 +1818,12 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Switzerland",
+        "tla": "SUI"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Colombia",
+        "tla": "COL"
       },
       "winner": null,
       "scoreHome": null,
