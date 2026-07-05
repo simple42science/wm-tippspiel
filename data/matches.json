@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T04:19:00.289Z",
+  "updatedAt": "2026-07-05T07:48:19.381Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1837,12 +1837,12 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "France",
+        "tla": "FRA"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Morocco",
+        "tla": "MAR"
       },
       "winner": null,
       "scoreHome": null,
