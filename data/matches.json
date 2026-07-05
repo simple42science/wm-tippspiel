@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-05T21:19:04.821Z",
+  "updatedAt": "2026-07-05T22:39:16.559Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 90,
+  "finished": 91,
   "matches": [
     {
       "id": 537327,
@@ -1718,7 +1718,7 @@
     {
       "id": 537377,
       "utcDate": "2026-07-05T20:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "stage": "LAST_16",
       "group": null,
       "matchday": null,
@@ -1730,9 +1730,9 @@
         "name": "Norway",
         "tla": "NOR"
       },
-      "winner": "DRAW",
-      "scoreHome": 0,
-      "scoreAway": 0
+      "winner": "AWAY_TEAM",
+      "scoreHome": 1,
+      "scoreAway": 2
     },
     {
       "id": 537378,
