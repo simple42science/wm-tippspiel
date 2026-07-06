@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T04:38:04.064Z",
+  "updatedAt": "2026-07-06T08:50:54.668Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1875,12 +1875,12 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Norway",
+        "tla": "NOR"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "England",
+        "tla": "ENG"
       },
       "winner": null,
       "scoreHome": null,
