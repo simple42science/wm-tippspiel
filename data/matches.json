@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T18:30:50.171Z",
+  "updatedAt": "2026-07-06T20:33:18.012Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1756,7 +1756,7 @@
     {
       "id": 537379,
       "utcDate": "2026-07-06T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "LAST_16",
       "group": null,
       "matchday": null,
@@ -1768,9 +1768,9 @@
         "name": "Spain",
         "tla": "ESP"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 0,
+      "scoreAway": 0
     },
     {
       "id": 537380,
