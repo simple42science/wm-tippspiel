@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-05T23:45:27.072Z",
+  "updatedAt": "2026-07-06T04:38:04.064Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 91,
+  "finished": 92,
   "matches": [
     {
       "id": 537327,
@@ -1737,7 +1737,7 @@
     {
       "id": 537378,
       "utcDate": "2026-07-06T01:00:00Z",
-      "status": "2026-07-06 01:00:00Z",
+      "status": "FINISHED",
       "stage": "LAST_16",
       "group": null,
       "matchday": null,
@@ -1749,9 +1749,9 @@
         "name": "England",
         "tla": "ENG"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "AWAY_TEAM",
+      "scoreHome": 2,
+      "scoreAway": 3
     },
     {
       "id": 537379,
