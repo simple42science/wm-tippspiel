@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T21:10:04.854Z",
+  "updatedAt": "2026-07-07T22:31:40.461Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1813,7 +1813,7 @@
     {
       "id": 537382,
       "utcDate": "2026-07-07T20:00:00Z",
-      "status": "LIVE",
+      "status": "IN_PLAY",
       "stage": "LAST_16",
       "group": null,
       "matchday": null,
