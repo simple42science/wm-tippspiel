@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T19:24:53.051Z",
+  "updatedAt": "2026-07-07T21:10:04.854Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1813,7 +1813,7 @@
     {
       "id": 537382,
       "utcDate": "2026-07-07T20:00:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "stage": "LAST_16",
       "group": null,
       "matchday": null,
@@ -1825,9 +1825,9 @@
         "name": "Colombia",
         "tla": "COL"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 0,
+      "scoreAway": 0
     },
     {
       "id": 537383,
