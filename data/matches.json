@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T23:31:12.451Z",
+  "updatedAt": "2026-07-07T01:23:13.442Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1775,7 +1775,7 @@
     {
       "id": 537380,
       "utcDate": "2026-07-07T00:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "LAST_16",
       "group": null,
       "matchday": null,
@@ -1787,9 +1787,9 @@
         "name": "Belgium",
         "tla": "BEL"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "AWAY_TEAM",
+      "scoreHome": 1,
+      "scoreAway": 2
     },
     {
       "id": 537381,
