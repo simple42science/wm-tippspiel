@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T04:34:04.291Z",
+  "updatedAt": "2026-07-08T07:14:25.021Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1825,7 +1825,7 @@
         "name": "Colombia",
         "tla": "COL"
       },
-      "winner": null,
+      "winner": "HOME_TEAM",
       "scoreHome": 4,
       "scoreAway": 3
     },
@@ -1894,12 +1894,12 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "Argentina",
+        "tla": "ARG"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Switzerland",
+        "tla": "SUI"
       },
       "winner": null,
       "scoreHome": null,
