@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T18:59:25.122Z",
+  "updatedAt": "2026-07-09T20:55:39.620Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1832,7 +1832,7 @@
     {
       "id": 537383,
       "utcDate": "2026-07-09T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "QUARTER_FINALS",
       "group": null,
       "matchday": null,
@@ -1844,9 +1844,9 @@
         "name": "Morocco",
         "tla": "MAR"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 0,
+      "scoreAway": 0
     },
     {
       "id": 537384,
