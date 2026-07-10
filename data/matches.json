@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-10T19:50:22.362Z",
+  "updatedAt": "2026-07-10T21:19:34.060Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 97,
+  "finished": 98,
   "matches": [
     {
       "id": 537327,
@@ -1851,7 +1851,7 @@
     {
       "id": 537384,
       "utcDate": "2026-07-10T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "QUARTER_FINALS",
       "group": null,
       "matchday": null,
@@ -1863,8 +1863,8 @@
         "name": "Belgium",
         "tla": "BEL"
       },
-      "winner": "DRAW",
-      "scoreHome": 1,
+      "winner": "HOME_TEAM",
+      "scoreHome": 2,
       "scoreAway": 1
     },
     {
