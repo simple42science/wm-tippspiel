@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-11T21:04:29.309Z",
+  "updatedAt": "2026-07-11T22:07:04.805Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 98,
+  "finished": 97,
   "matches": [
     {
       "id": 537327,
@@ -1737,7 +1737,7 @@
     {
       "id": 537378,
       "utcDate": "2026-07-06T01:00:00Z",
-      "status": "FINISHED",
+      "status": "2026-07-06 01:00:00Z",
       "stage": "LAST_16",
       "group": null,
       "matchday": null,
@@ -1870,7 +1870,7 @@
     {
       "id": 537385,
       "utcDate": "2026-07-11T21:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "stage": "QUARTER_FINALS",
       "group": null,
       "matchday": null,
@@ -1882,9 +1882,9 @@
         "name": "England",
         "tla": "ENG"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "DRAW",
+      "scoreHome": 1,
+      "scoreAway": 1
     },
     {
       "id": 537386,
