@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-12T00:11:38.030Z",
+  "updatedAt": "2026-07-12T04:00:33.404Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 98,
+  "finished": 99,
   "matches": [
     {
       "id": 537327,
@@ -1889,7 +1889,7 @@
     {
       "id": 537386,
       "utcDate": "2026-07-12T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "QUARTER_FINALS",
       "group": null,
       "matchday": null,
@@ -1901,9 +1901,9 @@
         "name": "Switzerland",
         "tla": "SUI"
       },
-      "winner": null,
-      "scoreHome": null,
-      "scoreAway": null
+      "winner": "HOME_TEAM",
+      "scoreHome": 3,
+      "scoreAway": 1
     },
     {
       "id": 537387,
