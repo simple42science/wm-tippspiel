@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-12T04:00:33.404Z",
+  "updatedAt": "2026-07-12T06:45:30.185Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 99,
+  "finished": 100,
   "matches": [
     {
       "id": 537327,
@@ -1737,7 +1737,7 @@
     {
       "id": 537378,
       "utcDate": "2026-07-06T01:00:00Z",
-      "status": "2026-07-06 01:00:00Z",
+      "status": "FINISHED",
       "stage": "LAST_16",
       "group": null,
       "matchday": null,
@@ -1932,12 +1932,12 @@
       "group": null,
       "matchday": null,
       "home": {
-        "name": null,
-        "tla": null
+        "name": "England",
+        "tla": "ENG"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Argentina",
+        "tla": "ARG"
       },
       "winner": null,
       "scoreHome": null,
