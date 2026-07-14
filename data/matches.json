@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-14T20:21:48.686Z",
+  "updatedAt": "2026-07-14T21:37:02.029Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 100,
+  "finished": 101,
   "matches": [
     {
       "id": 537327,
@@ -1908,7 +1908,7 @@
     {
       "id": 537387,
       "utcDate": "2026-07-14T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "SEMI_FINALS",
       "group": null,
       "matchday": null,
@@ -1922,7 +1922,7 @@
       },
       "winner": "AWAY_TEAM",
       "scoreHome": 0,
-      "scoreAway": 1
+      "scoreAway": 2
     },
     {
       "id": 537388,
