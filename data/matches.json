@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T04:26:21.972Z",
+  "updatedAt": "2026-07-16T07:08:55.874Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
@@ -1955,8 +1955,8 @@
         "tla": "FRA"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "England",
+        "tla": "ENG"
       },
       "winner": null,
       "scoreHome": null,
@@ -1974,8 +1974,8 @@
         "tla": "ESP"
       },
       "away": {
-        "name": null,
-        "tla": null
+        "name": "Argentina",
+        "tla": "ARG"
       },
       "winner": null,
       "scoreHome": null,
