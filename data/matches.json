@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-18T22:06:21.286Z",
+  "updatedAt": "2026-07-18T23:09:24.512Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 102,
+  "finished": 103,
   "matches": [
     {
       "id": 537327,
@@ -1946,7 +1946,7 @@
     {
       "id": 537389,
       "utcDate": "2026-07-18T21:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "stage": "THIRD_PLACE",
       "group": null,
       "matchday": null,
@@ -1959,8 +1959,8 @@
         "tla": "ENG"
       },
       "winner": "AWAY_TEAM",
-      "scoreHome": 0,
-      "scoreAway": 4
+      "scoreHome": 4,
+      "scoreAway": 6
     },
     {
       "id": 537390,
