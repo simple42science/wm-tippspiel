@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-19T21:06:27.995Z",
+  "updatedAt": "2026-07-19T22:07:54.193Z",
   "competition": "WC",
   "season": "2026",
   "count": 104,
-  "finished": 103,
+  "finished": 104,
   "matches": [
     {
       "id": 537327,
@@ -1965,7 +1965,7 @@
     {
       "id": 537390,
       "utcDate": "2026-07-19T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "FINAL",
       "group": null,
       "matchday": null,
@@ -1977,8 +1977,8 @@
         "name": "Argentina",
         "tla": "ARG"
       },
-      "winner": "DRAW",
-      "scoreHome": 0,
+      "winner": "HOME_TEAM",
+      "scoreHome": 1,
       "scoreAway": 0
     }
   ]
